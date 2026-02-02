@@ -1,41 +1,21 @@
-# High Voltage Multiplier Learning Project
-This project documents a hobby-level high voltage generation experiment using:
-- 12V battery input
-- ZVS flyback driver
-- Flyback transformer
-- Cockcroft–Walton voltage multiplier stages
-⚠️ This is a learning project focused on theory, block design, and safe lab practice.
-No one should attempt high-voltage construction without proper supervision and equipment.
----
-## Goals
-- Learn HV generation principles
-- Understand multiplier stages
-- Study insulation and corona effects
-- Observe spark discharge behavior
----
-## System Blocks
-12V Battery → ZVS Driver → Flyback Transformer → HV AC → Multiplier Stages → HV DC Output
----
-##  Main Components
+# Parts List (India-Friendly)
+
+## Power Stage
+- 12V battery (7–12Ah)
 - ZVS flyback driver module
-- CRT flyback transformer
-- High-voltage capacitors
-- High-voltage diodes
-- Bleeder resistors
-- HV silicone wire
-- Acrylic mounting base
----
-## Documentation
-- Theory 
-- Safety 
-- Block Diagram
----
-##  Safety First
-High voltage can be lethal even at low current.
-This repo is for educational documentation only.
-Never:
-- Touch energized circuits
-- Work alone
-- Skip discharge resistors
-- Ignore insulation spacing
----
+
+## HV Stage
+- Flyback transformer
+- HV diodes (15–20kV rated)
+- HV capacitors (10–33nF, ≥15kV)
+
+## Protection
+- 10MΩ resistors (bleeder chain)
+- Silicone HV wire
+- Acrylic base
+- RTV silicone insulation
+
+## Tools
+- Multimeter
+- Soldering iron
+- Heat shrink tubing
